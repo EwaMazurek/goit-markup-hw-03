@@ -202,8 +202,6 @@ header .container {
 .team-section {
   background-color: var(--bcg-team-section);
   text-align: center;
-  padding-bottom: 94px;
-  padding-top: 94px;
 }
 
 .team-section-li {
