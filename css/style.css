@@ -49,8 +49,6 @@ p {
 }
 /* header */
 .header-style {
-  height: 80px;
-
   border-bottom: 1px var(--border-color-header) solid;
 }
 
@@ -69,9 +67,9 @@ p {
 
 header .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  height: 80px;
+  padding-bottom: 24px;
+  padding-top: 25px;
 }
 
 .nav-bar {
@@ -101,6 +99,10 @@ header .container {
   padding-right: 46px;
 }
 
+.header-contacts {
+  padding-left: 371px;
+}
+
 .nav-link {
   text-decoration: none;
   color: var(--basic-text);
@@ -113,9 +115,9 @@ header .container {
 
 /* main */
 .order-section {
-  height: 600px;
   background-color: var(--bcg-main-footer);
   text-align: center;
+  padding: 200px 452px;
 }
 
 .title {
@@ -125,13 +127,11 @@ header .container {
   color: var(--h1-color);
   text-align: center;
   letter-spacing: 0.06em;
-  padding: 200px 452px 30px;
+  margin-bottom: 30px;
 }
 
 .button-inactive {
   width: 200px;
-  height: 50px;
-
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -144,6 +144,8 @@ header .container {
 
   border-style: none;
   border-radius: 4px;
+
+  padding: 10px 30px;
 }
 
 .button-inactive:hover,
@@ -247,7 +249,6 @@ header .container {
   background-color: var(--bcg-main-footer);
   padding-top: 60px;
   padding-bottom: 60px;
-  height: 252px;
 }
 
 .footer-address {
@@ -352,7 +353,6 @@ header .container {
 .portfolio-projects-li {
   border: 1px solid var(--border-color-portoflio);
   width: 370px;
-  height: 404px;
 }
 
 .portfolio-projects-li > figure {
@@ -360,7 +360,6 @@ header .container {
 }
 
 .portfolio-projects-li figcaption {
-  height: 110px;
   padding: 20px 24px;
 }
 
